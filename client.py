@@ -75,7 +75,7 @@ def grabFile(ftp):
 def uploadFile(ftp):
 
     print("\nFiles to choose from:\n")
-    dirs = os.listdir("/Workspace/Coding/ftpclient")
+    dirs = os.listdir(".")
     for file in dirs:
         print(file)
     
